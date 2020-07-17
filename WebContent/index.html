@@ -5,31 +5,33 @@
 <title>servlet-simple-demo</title>
 </head>
 <body>
-<h2>Demo01-hello world</h2>
-<a href="/demo01">hello world</a>
-<hr />
-<h2>Demo02-表单参数的获取</h2>
-<form action="/demo02" method="get">
-	参数一:<input type="text" name="str01" />
-	参数二:<input type="text" name="str02" />
-	<input type="submit" value="get提交" />
-</form>
-<form action="/demo02" method="post">
-	参数一:<input type="text" name="str01" />
-	参数二:<input type="text" name="str02" />
-	<input type="submit" value="post提交" />
-</form>
-<hr />
-<h2>Demo03-转发与重定向</h2>
-<form action="/demo03" method="post">
-	转发：<input type="radio" name="url" value="forward" />
-	重定向：<input type="radio" name="url" value="redirect" />
-	<input type="submit" value="提交" />
-</form>
-<hr />
-<h2>Demo04-cookie</h2>
-<p>cookie仅有1分钟有效时长</p>
-<a href="/d4m1">设置cookie</a>
-<a href="/d4m2">获取cookie</a>
+	<h2>Demo01-hello world</h2>
+	<a href="/demo01">hello world</a>
+	<hr />
+	<h2>Demo02-表单参数的获取</h2>
+	<form action="/demo02" method="get">
+		参数一:<input type="text" name="str01" /> 参数二:<input type="text"
+			name="str02" /> <input type="submit" value="get提交" />
+	</form>
+	<form action="/demo02" method="post">
+		参数一:<input type="text" name="str01" /> 参数二:<input type="text"
+			name="str02" /> <input type="submit" value="post提交" />
+	</form>
+	<hr />
+	<h2>Demo03-转发与重定向</h2>
+	<form action="/demo03" method="post">
+		转发：<input type="radio" name="url" value="forward" /> 重定向：<input
+			type="radio" name="url" value="redirect" /> <input type="submit"
+			value="提交" />
+	</form>
+	<hr />
+	<h2>Demo04-cookie</h2>
+	<p>cookie仅有1分钟有效时长</p>
+	<a href="/d4m1">设置cookie</a>
+	<a href="/d4m2">获取cookie</a>
+	<hr />
+	<h2>Demo05-session</h2>
+	<a href="/d5m1">设置session</a>
+	<a href="/d5m2">获取session</a>
 </body>
 </html>
